@@ -4,7 +4,7 @@ import { ViewWrapper } from '../../atoms/viewWrapper/ViewWrapper.style';
 import { HeaderCourse } from '../../molecules/headerCourse/HeaderCourse';
 import { NavigationCourse } from '../../molecules/navigationCourse/NavigationCourse';
 import { SeledCourses } from '../../molecules/seledCourse/SeledCourses';
-import { SearchList } from '../../atoms/searchList/SearchList';
+import { DataListInput } from '../../atoms/dataListInput/DataListInput';
 import { Rating } from '../../molecules/rating/Rating';
 import { BarChart } from '../../molecules/barChart/BarChart';
 import { StartCharts } from '../../molecules/statsChart/StatsChart';
@@ -31,7 +31,7 @@ export const PlanCourse = () => {
     <ViewWrapper>
       <HeaderCourse />
       <NavigationCourse />
-      <SearchList />
+      <DataListInput name="Wszystkie warianty" />
       <Wrapper>
         <SeledCourses />
         <SeledCourses isRed />
