@@ -6,24 +6,15 @@ import { NavigationCourse } from '../../molecules/navigationCourse/NavigationCou
 import { SeledCourses } from '../../molecules/seledCourse/SeledCourses';
 import { DataListInput } from '../../atoms/dataListInput/DataListInput';
 import { Rating } from '../../molecules/rating/Rating';
-import { BarChart } from '../../molecules/barChart/BarChart';
-import { StartCharts } from '../../molecules/statsChart/StatsChart';
+
 import { StatusCourse } from '../../molecules/statusCourse/StatusCourse';
 import { MosteLeaveStages } from '../../molecules/mostLeaveStages/MostLeaveStages';
 import { ActiveDiscussions } from '../../molecules/activeDiscussions/ActiveDiscussions';
 import { CoursesFooter } from '../../molecules/coursesFooter/CoursesFooter';
+import { BarInfo } from '../../molecules/barInfo/BarInfo';
 
 const Wrapper = styled.div`
   display: flex;
-`;
-
-const WrapperBarInfo = styled.div`
-  padding: 20px;
-  width: 653px;
-  height: 400px;
-  margin: 12.5px 12.5px 12.5px 25px;
-  border-radius: 8px;
-  background-color: ${({ theme }) => theme.colors.white};
 `;
 
 export const PlanCourse = () => {
@@ -38,10 +29,7 @@ export const PlanCourse = () => {
         <Rating />
       </Wrapper>
       <Wrapper>
-        <WrapperBarInfo>
-          <StartCharts />
-          <BarChart />
-        </WrapperBarInfo>
+        <BarInfo />
         <StatusCourse />
       </Wrapper>
       <Wrapper>
