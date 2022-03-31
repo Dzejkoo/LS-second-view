@@ -23,8 +23,9 @@ export const HeaderCourseWrapper = styled.div`
     border-radius: 40px;
     background-color: ${({ theme }) => theme.colors.turkis};
     border: none;
+    cursor: pointer;
   }
-  span:nth-child(2) {
+  span {
     font-weight: 300;
     display: flex;
     align-items: center;
@@ -35,6 +36,7 @@ export const HeaderCourseWrapper = styled.div`
     }
   }
   span:nth-child(3) {
+    cursor: pointer;
     text-transform: uppercase;
     color: ${({ theme }) => theme.colors.turkis};
     padding-right: 25px;

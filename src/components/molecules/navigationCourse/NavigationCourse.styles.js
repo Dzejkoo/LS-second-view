@@ -19,6 +19,7 @@ export const NavigationBar = styled.div`
   color: ${({ theme }) => theme.colors.grayDark};
   span {
     padding: 15px 25px;
+    cursor: pointer;
   }
   span:nth-child(1) {
     color: ${({ theme }) => theme.colors.turkis};
