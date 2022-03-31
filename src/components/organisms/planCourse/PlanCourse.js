@@ -6,7 +6,6 @@ import { NavigationCourse } from '../../molecules/navigationCourse/NavigationCou
 import { SeledCourses } from '../../molecules/seledCourse/SeledCourses';
 import { DataListInput } from '../../atoms/dataListInput/DataListInput';
 import { Rating } from '../../molecules/rating/Rating';
-
 import { StatusCourse } from '../../molecules/statusCourse/StatusCourse';
 import { MosteLeaveStages } from '../../molecules/mostLeaveStages/MostLeaveStages';
 import { ActiveDiscussions } from '../../molecules/activeDiscussions/ActiveDiscussions';

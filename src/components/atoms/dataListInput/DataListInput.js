@@ -1,5 +1,4 @@
 import React from 'react';
-// import { ReactComponent as ArrowSmall } from '../../../assets/images/icon/arrow-small.svg';
 import { Input, Wrapper } from './DataListInput.styles';
 
 export const DataListInput = ({ name }) => {
