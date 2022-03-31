@@ -1,9 +1,9 @@
 import React from 'react';
-import { WrapperStatusCourse, GlobalStatsCourse } from './StatusCourse.styles';
+import { GlobalStatsCourse } from './StatusCourse.styles';
 
 export const StatusCourse = () => {
   return (
-    <WrapperStatusCourse>
+    <div>
       <GlobalStatsCourse>
         <span>43</span>
         <span>rozpoczętych kursów</span>
@@ -16,6 +16,6 @@ export const StatusCourse = () => {
         <span>12 dni</span>
         <span>średni czas porzucenia kursu</span>
       </GlobalStatsCourse>
-    </WrapperStatusCourse>
+    </div>
   );
 };

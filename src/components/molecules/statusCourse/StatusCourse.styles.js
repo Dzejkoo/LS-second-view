@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 import photos from '../../../assets/images/bgc';
 
-export const WrapperStatusCourse = styled.div``;
-
 export const GlobalStatsCourse = styled.div`
   width: 201px;
   height: 118px;
